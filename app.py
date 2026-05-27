@@ -6,7 +6,7 @@ app = Flask(__name__)
 app.secret_key = 'vercel_secret_key_pro'
 
 # ⚠️ [필수] 구글 배포 웹앱 URL을 기존 주소 그대로 여기에 다시 붙여넣으세요!
-GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxJxSowfOJ6EGKLoAihng8RqtDstseZTwZNCaC0E-0qTC9sIQxdscI9ig_fj8v5SnH3xg/exec"
+GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbz80xLZ07gPSxqrYROifo_LNxImpAN9gKd5PFsT-vHYtCtb9e-TAiVfvcn6zebF5N4kOA/exec"
 
 @app.route('/')
 def index():
